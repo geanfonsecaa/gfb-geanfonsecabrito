@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Contato - GFB</title>
     </head>
@@ -25,6 +24,51 @@
         </header>
 
         <main>
+            <img id="construcao" src="img/construcao.jpg" alt="pagina em construcao">
+            <form>
+                <label for="nomesobrenome">
+                    Nome e Sobrenome
+                </label>
+                <input type="text" id="nomesobrenome" class="input-padrao" placeholder="Digite seu nome e sobrenome" required>
+
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+
+                <label for="telefone">
+                    Telefone
+                </label>
+                <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+
+                <label for="mensagem">
+                    Mensagem
+                </label>
+                <textarea id="mensagem"cols="70" rows="10" class="input-padrao" placeholder="Digite aqui sua mensagem" required></textarea>
+
+                <fieldset>
+                    <legend>
+                        Como prefere o nosso contato?
+                    </legend>
+                    <label for="radio-email"> 
+                        <input id="radio-email" name="contato" type="radio" value="email">
+                        Email
+                    </label>
+                   
+                    <label for="radio-telefone">
+                        <input id="radio-telefone" name="contato" type="radio" value="telefone">
+                        Telefone
+                    </label>
+
+                    <label for="radio-whatsapp">
+                        <input id="radio-whatsapp" name="contato" type="radio" value="whatsapp" checked>
+                        Whatsapp
+                    </label>
+                    
+                </fieldset>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
         </main>
 
         <footer>

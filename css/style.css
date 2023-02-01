@@ -1,5 +1,5 @@
 header {
-    margin-top: 50px;
+    margin: 30px
 }
 
 h1 {
@@ -38,6 +38,34 @@ body{
     background-color: black;
 }
 
+.objetivo-resumo {
+    margin: 10px;
+    padding: 5px;
+    background: #2b2b2b;
+}
+
+#construcao {
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin: 50px;
+}
+
+p, li {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    margin: 60px;
+}
+
 #logo-footer{
     width: 5%;
 }
@@ -51,4 +79,45 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+form {
+    margin: 100px;;
+}
+
+form label, form legend {
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    margin: 15px;
+    padding: 15px 0;
+    background: rgb(255, 166, 0);
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: green;
+    color: white;
 }
